@@ -5,7 +5,7 @@ export default function MovieModal (data) {
     return (
         <>
         <dialog id="movie-modal" className="modal">
-            <div className="modal-box py-0 pr-3 h-[400px] md:h-[550px] relative rounded-[25px]">
+            <div className="modal-box py-0 h-[400px] md:h-[550px] relative rounded-[25px]">
                 <form method="dialog" className="flex justify-end bg-white sticky top-0 py-3">
                     <button className="btn text-lg rounded-xl">✕</button>
                 </form>
