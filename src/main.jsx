@@ -7,6 +7,7 @@ import { createBrowserRouter } from "react-router";
 import { RouterProvider } from "react-router/dom";
 import Header from './components/header/header.jsx';
 import Footer from './components/footer/footer.jsx';
+import NotFound from './Not-found.jsx';
 
 const router = createBrowserRouter([
   {
@@ -23,7 +24,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/*",
-    element: 'not found',
+    element: <NotFound/>,
   }
 ]);
 
